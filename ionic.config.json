@@ -1,5 +1,7 @@
 {
   "name": "Oceans",
-  "app_id": "",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
