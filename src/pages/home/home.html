@@ -9,11 +9,20 @@
 </ion-header>
 
 <ion-content padding>
-  <h3 id='texto'>Ionic Menu Starter</h3>
+  
+  <ion-card>
+      <div class="embed-responsive embed-responsive-16by9">
+    <iframe  [src]="sanitize(vid)" frameborder="0" allowfullscreen></iframe>
+      </div>
+    <ion-card-content>
+      <ion-card-title>
+        Un pulpo ataca a un buzo y trata de quitarle la cámara
+        </ion-card-title>
+      <p>
+        Un buzo que se encontraba haciendo fotos en las profundidades de las aguas del Krai de Primorie,en Rusia, se vio envuelto por los tentáculos de un pulpo. De manera repetida, el submarinista comenzó a apartarle las extremidades para soltarse del animal mientras, tras varios intentos fallidos de agarrar al buzo, el pulpo estiró de su cámara para llevársela también sin éxito. Las imágenes que captaron el momento fueron grabadas por el cineasta Dmitriy Rudas en 2016 y hasta ahora no se habían publicado en Internet.
+      </p>
 
-  <p>
-    
-  </p>
+    </ion-card-content>
+  </ion-card>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>

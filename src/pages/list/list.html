@@ -3,21 +3,85 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>List</ion-title>
+    <ion-title>Checklist de Buceo</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
   <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-start></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-end>
-        {{item.note}}
-      </div>
-    </button>
+      <ion-item>
+          <ion-label>Gafas</ion-label>
+          <ion-toggle checked="false" ></ion-toggle>
+          
+      </ion-item>
+      <ion-item>
+          <ion-label>Capucha</ion-label>
+          <ion-toggle checked="false"></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Aletas</ion-label>
+          <ion-toggle checked="false" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Botas</ion-label>
+          <ion-toggle checked="false" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Guantes</ion-label>
+          <ion-toggle  checked="false" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Ropa interior térmica</ion-label>
+          <ion-toggle checked="false" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Lastre</ion-label>
+          <ion-toggle  checked="false"  ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Botella</ion-label>
+          <ion-toggle  checked="false" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Lastre</ion-label>
+          <ion-toggle  checked="false" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Jacket</ion-label>
+          <ion-toggle  checked="false"  ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Regulador</ion-label>
+          <ion-toggle  checked="false" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Ordenador</ion-label>
+          <ion-toggle  checked="false"  ></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Regulador</ion-label>
+        <ion-toggle  checked="false" ></ion-toggle>
+      </ion-item>
+        
+      <ion-item>
+          <ion-label>Profundímetro</ion-label>
+          <ion-toggle  checked="false" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Reloj</ion-label>
+          <ion-toggle checked="false" ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Brújula</ion-label>
+          <ion-toggle checked="false"  ></ion-toggle>
+      </ion-item>
+      <ion-item>
+          <ion-label>Cuchillo</ion-label>
+          <ion-toggle  checked="false" ></ion-toggle>
+      </ion-item>
   </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
 </ion-content>
+
+
+
+
