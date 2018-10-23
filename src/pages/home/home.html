@@ -8,21 +8,43 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content >
   
+    <mbsc-card [options]="settings">
+        <video autoplay muted controls>
+            <source  src="../assets/videos/Massive octopus attacks diver, drags equipment through sea.mp4" type="video/mp4">
+        </video>  
+            <ion-card-content>
+            <ion-card-title>
+                Un pulpo ataca a un buzo y trata de quitarle la cámara
+                </ion-card-title>
+            Un buzo que se encontraba haciendo fotos en las profundidades de las aguas del Krai de Primorie,en Rusia, se vio envuelto por los tentáculos de un pulpo. De manera repetida, el submarinista comenzó a apartarle las extremidades para soltarse del animal mientras, tras varios intentos fallidos de agarrar al buzo, el pulpo estiró de su cámara para llevársela también sin éxito. Las imágenes que captaron el momento fueron grabadas por el cineasta Dmitriy Rudas en 2016 y hasta ahora no se habían publicado en Internet.
+          </ion-card-content>
+    </mbsc-card>
+
   <ion-card>
-      <div class="embed-responsive embed-responsive-16by9">
-    <iframe  [src]="sanitize(vid)" frameborder="0" allowfullscreen></iframe>
-      </div>
+    <img src="../assets/imgs/1403771690_576499_1403774453_album_normal.jpg"/>
     <ion-card-content>
       <ion-card-title>
-        Un pulpo ataca a un buzo y trata de quitarle la cámara
+        Mejores lugares para bucear: Islas Galápagos
         </ion-card-title>
       <p>
-        Un buzo que se encontraba haciendo fotos en las profundidades de las aguas del Krai de Primorie,en Rusia, se vio envuelto por los tentáculos de un pulpo. De manera repetida, el submarinista comenzó a apartarle las extremidades para soltarse del animal mientras, tras varios intentos fallidos de agarrar al buzo, el pulpo estiró de su cámara para llevársela también sin éxito. Las imágenes que captaron el momento fueron grabadas por el cineasta Dmitriy Rudas en 2016 y hasta ahora no se habían publicado en Internet.
+        Al estar más aisladas que otras zonas del continente americano, las Islas Galápagos cuentan con una gran variedad de fauna marina (tiburones ballena, mantas…). Cuenta con muchas especies y los cambios de corriente en este archipiélago lo favorecen. La mayor atracción es la Isla Fernandina, donde se puede bucear con focas y lobos marinos. Dónde perderse: En Santa Cruz, las rutas de la estación Darwin son las más famosas. Más información: www.casanaturahotel.com/es-ES/diving.php
       </p>
-
     </ion-card-content>
   </ion-card>
-
+  <ion-card>
+    <img src="../assets/imgs/211398-600-338.jpg"/>
+    <ion-card-content>
+      <ion-card-title>
+        Salen a bucear y encuentran un tesoro con 2.000 monedas de oro
+        </ion-card-title>
+      <p>
+        Una excursión de buceo como otra cualquiera se convirtió en uno de los mayores hallazgos de la historia de la arqueología en Israel. Un grupo de buceadores aficionados practicaba submarinismo en el antiguo puerto de Cesarea, el el Parque Nacional del mismo nombre, en la costa mediterránea israelí, cuando vieron en el fondo lo que les parecieron monedas de juguete. Sin embargo, una segunda inspección reveló que se encontraban ante monedas de oro auténticas, que probablemente habían quedado expuestas por las tormentas de días anteriores.
+      </p><br>
+      <p>
+        Tras dar aviso a las autoridades y proceder a su recuperación se certificó que era la mayor reserva de monedas de oro encontradas en Israel, sin haber sido intervenidas, cerca de 2.000 piezas del período Fatimí, con una antigüedad de unos 1.000 años y de diferentes valores, como un dinar, medio dinar y cuarto de dinar y de diversas dimensiones y pesos. Se cree que fueron acuñadas en Egipto y el norte de África. El califato al que pertenecen las monedas gobernó buena parte del Oriente Medio y el norte de África durante casi 200 años, entre el 909 d.C. y el 1.171 d.C.
+      </p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
