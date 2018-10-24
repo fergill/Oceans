@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'wallpaper.html',
 })
 export class WallpaperPage {
-  galleryType='buceo';
+  galleryType="buceo";
 
   
   constructor(public navCtrl: NavController, public navParams: NavParams) {
